@@ -1,0 +1,53 @@
+element.style {
+}
+:root {
+    --ac-color: #7986cb;
+    --ac-color-h: 230.4878048780488;
+    --ac-color-s: 44.08602150537633%;
+    --ac-color-l: 63.52941176470588%;
+    --ac-color-rgb: 121,134,203;
+    --ac-acl: 25;
+    --ac-acd: -20;
+    --ac-basic: #fff;
+    --ac-basic-h: 0;
+    --ac-basic-s: 0%;
+    --ac-basic-l: 100%;
+}
+:root {
+    --ac-bg-light: hsl(var(--ac-color-h),var(--ac-color-s),calc(var(--ac-color-l) + ((100% - var(--ac-color-l)) / 100 * var(--ac-acl))));
+    --ac-bg-dark: hsl(var(--ac-color-h),var(--ac-color-s),calc(var(--ac-color-l) + (var(--ac-color-l) / 100 * var(--ac-acd))));
+    --ac-icon-outline-lbg: hsl(var(--ac-color-h),var(--ac-color-s),calc(var(--ac-color-l) + (var(--ac-color-l) / 100 * -14)));
+    --ac-icon-border-lbg: hsl(var(--ac-color-h),var(--ac-color-s),calc(var(--ac-color-l) + ((100% - var(--ac-color-l)) / 100 * 20)));
+    --ac-icon-outline-dbg: hsl(var(--ac-color-h),var(--ac-color-s),calc(var(--ac-color-l) + ((100% - var(--ac-color-l)) / 100 * 34)));
+    --ac-icon-border-dbg: hsl(var(--ac-color-h),var(--ac-color-s),calc(var(--ac-color-l) + (var(--ac-color-l) / 100 * -22)));
+}
+html {
+    width: 100%;
+    height: 100%;
+    -ms-overflow-style: scrollbar;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0)!important;
+    -webkit-tap-highlight-color: transparent!important;
+}
+html[Estilo de atributos] {
+    -webkit-locale: "es";
+}
+hoja de estilo del usuario-agente
+:root {
+    view-transition-name: root;
+}
+hoja de estilo del usuario-agente
+html {
+    display: block;
+}
+::selection {
+    background-color: rgba(105,160,215,.4);
+}
+
